@@ -10,7 +10,10 @@ var options = {
     tag: envs.TASKS_COLLECTOR_EXCHANGE_TAG || 'tasks-collector-exchange'
   },
   mesh: {
-    auto: true
+    auto: true,
+    listen: [
+      {pin: 'cmd:collect-tasks, type:user', model: 'observe'}
+    ]
   },
   exchange: {
     url: envs.TASKS_COLLECTOR_EXCHANGE_URL || 'http://www.exchange.no'
