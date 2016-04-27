@@ -27,8 +27,7 @@ var Service = Seneca(options.seneca)
 
 if (envs.TASKS_COLLECTOR_EXCHANGE_ISOLATED) {
   Service.listen(options.isolated)
-}
-else {
+} else {
   Service.use(Mesh, options.mesh)
 }
 
