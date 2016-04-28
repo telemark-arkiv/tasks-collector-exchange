@@ -37,6 +37,6 @@
     "seneca": "2.0.1",
     "seneca-balance-client": "0.4.0",
     "seneca-mesh": "0.7.0",
-    "ews-javascript-api": "git+https://github.com/gautamsi/ews-javascript-api.git"
+    "ews-javascript-api": "0.2.5"
   }
 }
