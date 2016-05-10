@@ -8,7 +8,7 @@ var config = {
   password: envs.EWS_TASKS_PASSWORD || 'password',
   domain: envs.EWS_TASKS_DOMAIN || '@skole.t-fk.no',
   tasksUrl: envs.EWS_TASKS_OWA_URL || 'https://epost.vfk.no/owa/#path=/tasks',
-  tasks: envs.EWS_TASKS_NUMBER || 20 // number of uncompleted tasks to get
+  tasksLimit: envs.EWS_TASKS_LIMIT || 20 // number of uncompleted tasks to get
 }
 
 module.exports = config
