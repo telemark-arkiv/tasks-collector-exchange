@@ -3,18 +3,26 @@
   "version": "1.0.2",
   "description": "Collect a user's tasks from exchange",
   "license": "MIT",
+  "private": true,
   "author": {
-    "name": "Geir Gåsodden",
-    "email": "geir.gasodden@pythonia.no",
-    "url": "https://github.com/zrrrzzt"
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
   },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/telemark/tasks-collector-exchange/issues"
   },
   "homepage": "https://github.com/telemark/tasks-collector-exchange",
   "main": "service.js",
   "engines": {
-    "node": ">=4.4.4"
+    "node": ">=4.7.0"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
