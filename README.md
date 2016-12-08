@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/telemark/tasks-collector-exchange.svg?branch=master)](https://travis-ci.org/telemark/tasks-collector-exchange)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tasks-collector-exchange
 Collect a user's tasks from exchange
 

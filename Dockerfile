@@ -27,17 +27,5 @@ WORKDIR "/src"
 # Install dependencies
 RUN npm install --production
 
-# Env variables
-ENV TASKS_COLLECTOR_EXCHANGE_TAG tasks-collector-exchange
-ENV TASKS_COLLECTOR_EXCHANGE_URL http://exchange.no
-ENV TASKS_COLLECTOR_EXCHANGE_HOST localhost
-ENV TASKS_COLLECTOR_EXCHANGE_PORT 8000
-ENV EWS_TASKS_URL https://epost.vfk.no/ews/Exchange.asmx
-ENV EWS_TASKS_USERNAME domain\\username
-ENV EWS_TASKS_PASSWORD password
-ENV EWS_TASKS_DOMAIN @skole.t-fk.no
-ENV EWS_TASKS_OWA_URL https://epost.vfk.no/owa/#path=/tasks
-ENV EWS_TASKS_LIMIT 20
-
 # Startup
 CMD ["node", "service.js", "--seneca-log=type:act"]
