@@ -1,11 +1,11 @@
 'use strict'
 
-var Seneca = require('seneca')
-var Mesh = require('seneca-mesh')
-var envs = process.env
-var Exchange = require('./lib/exchange')
+const Seneca = require('seneca')
+const Mesh = require('seneca-mesh')
+const envs = process.env
+const Exchange = require('./lib/exchange')
 
-var options = {
+const options = {
   seneca: {
     log: 'silent',
     tag: envs.TASKS_COLLECTOR_EXCHANGE_TAG || 'tasks-collector-exchange'
