@@ -7,6 +7,7 @@ var Exchange = require('./lib/exchange')
 
 var options = {
   seneca: {
+    log: 'silent',
     tag: envs.TASKS_COLLECTOR_EXCHANGE_TAG || 'tasks-collector-exchange'
   },
   mesh: {
