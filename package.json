@@ -37,17 +37,17 @@
     "url": "git://github.com/telemark/tasks-collector-exchange.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.16",
-    "nsp": "2.6.2",
+    "coveralls": "2.13.0",
+    "nsp": "2.6.3",
     "standard": "10.0.0",
-    "tap": "10.3.0"
+    "tap": "10.3.1"
   },
   "dependencies": {
     "ews-javascript-api": "0.8.0",
-    "httpntlm": "1.7.4",
+    "httpntlm": "1.7.5",
     "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
     "seneca-legacy-logger": "0.1.0",
-    "seneca-mesh": "0.9.0"
+    "seneca-mesh": "0.10.0"
   }
 }
